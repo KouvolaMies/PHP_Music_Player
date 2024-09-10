@@ -1,0 +1,155 @@
+body{
+    background-color: rgb(70, 70, 70);
+    color: rgb(150, 150, 150);
+    margin: 0;
+    padding: 0;
+}
+#songTable{
+    position: absolute;
+    width: 98vw;
+    margin-top: 7vh;
+    margin-left: 1vw;
+    border-collapse:collapse;
+}
+#songList{
+    border:1px solid black;
+    border-collapse:collapse;
+    padding: 10px;
+    text-align: left;
+}
+#playRow{
+    width: 1vw;
+    border:1px solid black;
+    border-collapse:collapse;
+    padding: 10px;
+}
+#playIcon{
+    width:25px;
+    height:25px;
+}
+#playButton{
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+#playerTable{
+    border-collapse:collapse;
+    width: 47.1vw;
+    float: right;
+    position: absolute;
+}
+#songName{
+    width: 25vw;
+    font-size: 2vw;
+    border:1px solid black;
+    border-collapse:collapse;
+    text-align: left;
+    padding: 0.4vw;
+}
+#songPlayer{
+    border:1px solid black;
+    border-collapse:collapse;
+    padding: 0.4vw;
+}
+#player{
+    width: 100%;
+}
+#searchButton{
+    width: 100%;
+}
+#index{
+    position: absolute;
+    width: 25vw;
+    height: 5vh;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    font-size: 3vh;
+    background-color: rgb(220, 220, 220);
+    border: solid;
+    border-color: rgb(128, 128, 128);
+    cursor: pointer;
+}
+#add{
+    position: absolute;
+    width: 25vw;
+    height: 5vh;
+    margin-top: 1vh;
+    margin-left: 31vw;
+    font-size: 3vh;
+    background-color: rgb(220, 220, 220);
+    border: solid;
+    border-color: rgb(128, 128, 128);
+    cursor: pointer;
+}
+#logout{
+    position: absolute;
+    width: 25vw;
+    height: 5vh;
+    margin-top: 1vh;
+    margin-left: 61vw;
+    font-size: 3vh;
+    background-color: rgb(220, 220, 220);
+    border: solid;
+    border-color: rgb(128, 128, 128);
+    cursor: pointer;
+}
+#loginText{
+    position:absolute;
+    right:1vw;
+    top:1vh; width:10vw;
+    text-align: center;
+    font-size: 2vh;
+}
+@media (max-width: 800px){
+    #songName{
+        width: 25vw;
+        font-size: 8vw;
+        border:1px solid black;
+        border-collapse:collapse;
+        text-align: left;
+        padding: 0.4vw;
+    }
+    #index{
+        position: absolute;
+        width: 25vw;
+        height: 5vh;
+        margin-top: 1vh;
+        margin-left: 1vw;
+        font-size: 3vw;
+        background-color: rgb(220, 220, 220);
+        border: solid;
+        border-color: rgb(128, 128, 128);
+        cursor: pointer;
+    }
+    #add{
+        position: absolute;
+        width: 25vw;
+        height: 5vh;
+        margin-top: 1vh;
+        margin-left: 31vw;
+        font-size: 3vw;
+        background-color: rgb(220, 220, 220);
+        border: solid;
+        border-color: rgb(128, 128, 128);
+        cursor: pointer;
+    }
+    #logout{
+        position: absolute;
+        width: 25vw;
+        height: 5vh;
+        margin-top: 1vh;
+        margin-left: 61vw;
+        font-size: 3vw;
+        background-color: rgb(220, 220, 220);
+        border: solid;
+        border-color: rgb(128, 128, 128);
+        cursor: pointer;
+    }
+    #loginText{
+        position:absolute;
+        right:1vw;
+        top:1vh; width:10vw;
+        text-align: center;
+        font-size: 2vw;
+    }
+}
